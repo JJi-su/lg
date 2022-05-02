@@ -53,6 +53,8 @@ view: planet {
     label: "테스트 메저"
     type: count
     drill_fields: []
+    group_label: "테스트 그룹라벨2"
+    group_item_label: "Example measure"
   }
 }
 
