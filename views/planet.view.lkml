@@ -45,6 +45,8 @@ view: planet {
     label : " 테스트 다이멘션"
     type: number
     sql: ${TABLE}.osm_way_id ;;
+    group_label: "테스트 그룹라벨"
+    group_item_label: "State"
   }
 
   measure: count {
