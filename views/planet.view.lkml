@@ -42,7 +42,6 @@ view: planet {
   }
 
   dimension: osm_way_id {
-    label : " 테스트 다이멘션"
     type: number
     sql: ${TABLE}.osm_way_id ;;
     group_label: "테스트 그룹라벨"
