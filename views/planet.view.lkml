@@ -3,6 +3,7 @@ view: planet {
     ;;
 
   dimension: all_tags {
+    label: "테스트"
     hidden: yes
     sql: ${TABLE}.all_tags ;;
   }
