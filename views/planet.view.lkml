@@ -3,7 +3,6 @@ view: planet {
     ;;
 
   dimension: all_tags {
-    label: "테스트"
     hidden: yes
     sql: ${TABLE}.all_tags ;;
   }
@@ -43,11 +42,13 @@ view: planet {
   }
 
   dimension: osm_way_id {
+    label : " 테스트 다이멘션"
     type: number
     sql: ${TABLE}.osm_way_id ;;
   }
 
   measure: count {
+    label: "테스트 메저"
     type: count
     drill_fields: []
   }
