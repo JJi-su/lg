@@ -45,16 +45,14 @@ view: planet {
     label : " 테스트 다이멘션"
     type: number
     sql: ${TABLE}.osm_way_id ;;
-    group_label: "테스트 그룹라벨"
-    group_item_label: "그룹라벨 아이템 dimension"
+
   }
 
   measure: count {
     label: "테스트 메저"
     type: count
     drill_fields: []
-    group_label: "테스트 그룹라벨2"
-    group_item_label: "그룹라벨 아이템 measure"
+
   }
 }
 
